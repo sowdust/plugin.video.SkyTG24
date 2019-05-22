@@ -4,9 +4,10 @@ import requests
 
 url = 'http://videoplatform.sky.it/player/json/get_livestream_1.json'
 res = requests.get(url)
+
 try:
-	streaming_url = 'https://' + re.findall('"streaming_url":"http://(.*?)"', res.text)[0]
-	thumb_url = 'https://' + re.findall('"img":"http://(.*?)"', res.text)[1]
+	streaming_url = 'https://' + re.findall('"streaming_url":"https{0,1}://(.*?)"', res.text)[0]
+	thumb_url = 'https://' + re.findall('"img":"https{0,1}://(.*?)"', res.text)[1]
 	listitem = xbmcgui.ListItem('SkyTG24')
 	listitem.setInfo('video', {'Title': 'Diretta SkyTG24'})
 	listitem.setArt({ 'thumb': thumb_url})
