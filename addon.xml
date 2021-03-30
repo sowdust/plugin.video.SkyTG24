@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.SkyTG24" name="SkyTG24" version="0.0.2" provider-name="sowdust">
+<addon id="plugin.video.SkyTG24" name="SkyTG24" version="0.0.3" provider-name="sowdust">
   <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.22.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
@@ -19,6 +19,9 @@
     <source>https://github.com/sowdust/plugin.video.Skytg24</source>
     <forum></forum>
     <website></website>
-    <email></email>    
+    <email></email>  
+    <assets>
+      <icon>icon.png</icon>
+    </assets>  
   </extension>
 </addon>
