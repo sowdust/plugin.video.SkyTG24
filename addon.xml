@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.SkyTG24" name="SkyTG24" version="0.0.3" provider-name="sowdust">
+<addon id="plugin.video.SkyTG24" name="Sky TG24" version="0.0.4" provider-name="sowdust">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.requests" version="2.22.0"/>
@@ -8,20 +8,20 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="it">SkyTG24 diretta</summary>
-    <description lang="it">Streaming  della diretta di SkyTG24</description>
-    <summary lang="en">SkyTG24 Italy live</summary>
-    <description lang="en">Live streaming of SkyTG24 Italy</description>
+    <summary lang="it">Sky TG24 diretta</summary>
+    <description lang="it">Streaming della diretta di Sky TG24</description>
+    <summary lang="en">Sky TG24 Italy live</summary>
+    <description lang="en">Live streaming of Sky TG24 Italy</description>
     <language>it</language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
     <website>https://video.sky.it/news/diretta</website>
-    <source>https://github.com/sowdust/plugin.video.Skytg24</source>
+    <source>https://github.com/sowdust/plugin.video.skytg24</source>
     <forum></forum>
     <website></website>
-    <email></email>  
+    <email></email>
     <assets>
       <icon>icon.png</icon>
-    </assets>  
+    </assets>
   </extension>
 </addon>
